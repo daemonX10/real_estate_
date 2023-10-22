@@ -13,6 +13,11 @@ export default function Header() {
           <input type="text" placeholder='search...' className='bg-transparent focus:outline-none w-24 sm:w-64' />
           <FaSearch className='text-slate-500' />
         </form>
+        <ul className='flex gap-4'>
+          <li className='hidden sm:inline text-slate-700 hover:underline'>Home</li>
+          <li className='hidden sm:inline text-slate-700 hover:underline'>About</li>
+          <li className='text-slate-700 hover:underline '>SignIn</li>
+        </ul>
       </div>
     </header>
   )
